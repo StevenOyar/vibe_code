@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - AI Study Buddy</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- XP Gain Animation Container -->
+    <div id="xp-container"></div>
+
+    
+    <!-- Login Page -->
+    <div class="login-page">
+        <div class="login-container">
+            <div class="login-brand">
+                <i class="fas fa-brain"></i>
+                <span>AI Study Buddy</span>
+            </div>
+            <div class="auth-card">
+                <div class="auth-header">
+                    <button id="show-login" class="auth-toggle active">Login</button>
+                    <button id="show-signup" class="auth-toggle">Sign Up</button>
+                </div>
+
+                <!-- Login Form -->
+                <form id="login-form" class="auth-form">
+                    <div class="form-group">
+                        <label for="login-username">Username or Email</label>
+                        <input type="text" id="login-username" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="login-password">Password</label>
+                        <input type="password" id="login-password" required>
+                    </div>
+                    <button type="button" id="login-btn" class="btn btn-primary full-width">
+                        <i class="fas fa-sign-in-alt"></i> Login
+                    </button>
+                </form>
+
+                <!-- Signup Form -->
+                <form id="signup-form" class="auth-form hidden">
+                    <div class="form-group">
+                        <label for="signup-username">Username</label>
+                        <input type="text" id="signup-username" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="signup-email">Email</label>
+                        <input type="email" id="signup-email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="signup-password">Password</label>
+                        <input type="password" id="signup-password" required>
+                    </div>
+                    <button type="button" id="signup-btn" class="btn btn-primary full-width">
+                        <i class="fas fa-user-plus"></i> Create Account
+                    </button>
+                </form>
+
+                <div class="login-footer">
+                    <p>Don't have an account? Click Sign Up above</p>
+                    <p><small>Demo credentials: any username/password</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../static/app.js"></script>
+</body>
+</html>
