@@ -1,0 +1,78 @@
+# AI Study Buddy Backend Requirements
+
+# Core Flask Framework
+Flask==2.3.3
+Werkzeug==2.3.7
+
+# Database
+mysql-connector-python==8.2.0
+
+# Authentication & Security
+Flask-JWT-Extended==4.5.3
+PyJWT==2.8.0
+cryptography==41.0.7
+
+# CORS Support
+Flask-CORS==4.0.0
+
+# HTTP Requests
+requests==2.31.0
+
+# Environment Variables
+python-dotenv==1.0.0
+
+# Password Hashing (included with Werkzeug but explicit for clarity)
+bcrypt==4.0.1
+
+# Payment Processing (IntaSend)
+intasend-python==3.1.0
+
+# Template Engine & Static File Serving
+Jinja2==3.1.2
+MarkupSafe==2.1.3
+
+# CSS/JS Minification & Asset Management
+webassets==2.0
+Flask-Assets==2.1.0
+cssmin==0.2.0
+jsmin==3.0.1
+
+# HTML Processing & Validation
+bleach==6.1.0
+beautifulsoup4==4.12.2
+lxml==4.9.3
+
+# File Upload & Static File Handling
+Pillow==10.1.0
+python-magic==0.4.27
+
+# WebSocket Support (for real-time features)
+Flask-SocketIO==5.3.6
+python-socketio==5.9.0
+
+# Optional: If you want to use SQLAlchemy instead of raw MySQL
+# Flask-SQLAlchemy==3.1.1
+# Flask-Migrate==4.0.5
+
+# Development & Testing (optional)
+# pytest==7.4.3
+# pytest-flask==1.3.0
+# flask-testing==0.8.1
+
+# Production Server (optional)
+# gunicorn==21.2.0
+# uWSGI==2.0.23
+
+# Logging & Monitoring (optional)
+# python-logging==0.4.9.6
+
+# Data Validation (optional)
+# marshmallow==3.20.1
+# Flask-Marshmallow==0.15.0
+
+# Rate Limiting (optional for production)
+# Flask-Limiter==3.5.0
+
+# Caching (optional)
+# Flask-Caching==2.1.0
+# redis==5.0.1
